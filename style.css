@@ -1,9 +1,25 @@
-* {background-color: #FFBA00;}
-
 body {font-family: Arial;}
 
 h1, h3 {font-family: "Comic Sans MS";}
-h1 {color: #D32F2F;}
 h3 {color: #00AA86;}
-
 img {width: 30%;}
+
+
+h1 {
+    color: #D32F2F;
+    margin: 3rem 1rem 6rem 1rem;
+}
+body {
+    background: #ffba00;
+    font-family: 'Press Start 2P', monospace;
+    text-align: center;
+}
+main {
+    background: white;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 2rem 0;
+}
+
+  
