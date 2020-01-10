@@ -1,36 +1,42 @@
-body {font-family: Arial;}
-
-img {max-width: 20%}
-
-h1, h3 {font-family: "Comic Sans MS";}
-h3 {color: #00AA86;}
-
-h1 {
-    color: #D32F2F;
-    margin: 3rem 1rem 6rem 1rem;
-}
 body {
-    background: #E6E6FA;
-    font-family: 'Press Start 2P', monospace;
+    margin: 0;
+    padding: 2rem 0;
+    width: 100%;
+    background: #9370DB;
+    font-family: 'Inconsolata', monospace;
     text-align: center;
-}
-main {
+  }
+  
+  main {
     background: white;
     width: 90%;
     margin: auto;
     border-radius: 5px;
     padding: 2rem 0;
-}
-
-.artObject {
-    max-width: 80%;
-    max-height: 20rem;
-    margin: 1rem;
-}
-
-#gallery {
+  }
+  
+  h1 {
+    margin: 3rem 1rem 6rem 1rem;
+  }
+  
+  h2 {
+    margin: auto 2rem;
+  }
+  
+  footer {
+    margin: 3rem;
+    font-size: 1.2rem;
+  }
+  
+  #gallery {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: flex-start;
-}
+  }
+  
+  .artObject {
+    max-width: 80%;
+    max-height: 20rem;
+    margin: 1rem;
+  }

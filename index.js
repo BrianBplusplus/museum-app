@@ -329,23 +329,29 @@ function displayPainting(painting){
   const galleryId = document.getElementById('gallery');
   
   const a = document.createElement('a');
-  const img = document.createElement('img')
+  const img = document.createElement('img');
   
   img.alt = dynamicPainting.title;
-  img.classList.add('artobject');
+  img.classList.add('artObject');
   img.src = dynamicPainting.webImage.url;
   
-  a.href = ('./pages/detail-page.html')
+  a.href = ('./pages/detail-page.html');
   
   a.appendChild(img);
   galleryId.appendChild(a);
 };
 
 const arrayLength = data.artObjects.length;
-console.log(arrayLength);
 
 for (var i = 0; i < arrayLength; i++) {
-  displayPainting(data.artObjects[i]);
+  if (!data.artObjects[i].principalOrFirstMaker.includes("Honthorst")) {
+    if (data.artObjects[i].webImage.width >= 1500) {
+      displayPainting(data.artObjects[i]);
+    };
+  };
 };
+
+
+
 
 
