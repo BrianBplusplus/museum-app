@@ -1,5 +1,7 @@
 body {font-family: Arial;}
 
+img {max-width: 20%}
+
 h1, h3 {font-family: "Comic Sans MS";}
 h3 {color: #00AA86;}
 
@@ -8,7 +10,7 @@ h1 {
     margin: 3rem 1rem 6rem 1rem;
 }
 body {
-    background: #ffba00;
+    background: #E6E6FA;
     font-family: 'Press Start 2P', monospace;
     text-align: center;
 }
